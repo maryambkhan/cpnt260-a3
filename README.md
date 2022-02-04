@@ -14,3 +14,4 @@
    ![Form](images/grid1.png)
 * Had to change this method too becouse i delared images as fixed in rows and columns 
   so was having problem making page responsive.
+* one problem left with logo overlap cant find solution

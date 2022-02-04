@@ -17,6 +17,10 @@ img {
   grid-column: 1;
 }
 
+figure:hover {
+  transform: scale(1.2);
+}
+
 div {
   overflow: hidden;
   border-radius: var(--radius);
@@ -107,8 +111,8 @@ nav a {
 }
 /* logo layout */
 .logo {
-  text-align: center;
-  padding: 10px 0;
+  display: flex;
+  padding: 10px;
 }
 
 .pointer {
@@ -126,7 +130,6 @@ footer {
 }
 
 .footer {
-  
   left: 0;
   bottom: 0;
   margin: 1rem;
@@ -135,6 +138,10 @@ footer {
   text-align: center;
 }
 /* icon */
-i {
+.footer i {
+  justify-content: space-between;
+  margin: 1px;
+  align-items: center;
   font-size: 30px;
+  padding: 5px;
 }
