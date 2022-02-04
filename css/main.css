@@ -145,3 +145,14 @@ footer {
   font-size: 30px;
   padding: 5px;
 }
+@keyframes color-shift {
+  33% {
+    color: var(--blue);
+  }
+  66% {
+    color: var(--purple);
+  } 
+  90% {
+    color: var(--red);
+  }
+}

@@ -29,3 +29,21 @@ header p {
 ul li {
   font-family: 'Open Sans', sans-serif;
 }
+@keyframes color-shift {
+  33% {
+    color: #cc4855;
+  }
+  66% {
+    color: #b8620b;
+  } 
+  90% {
+    color: #4b6e55;
+  }
+}
+
+/* Apply the keyframe like this */
+.text-color {
+  animation-name: color-shift;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
