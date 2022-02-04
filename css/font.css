@@ -29,6 +29,7 @@ header p {
 ul li {
   font-family: 'Open Sans', sans-serif;
 }
+/*  keyframe  */
 @keyframes color-shift {
   33% {
     color: #cc4855;
@@ -41,9 +42,9 @@ ul li {
   }
 }
 
-/* Apply the keyframe like this */
 .text-color {
   animation-name: color-shift;
   animation-duration: 7s;
   animation-iteration-count: infinite;
+  animation-timing: cubic-bezier(.82,.29,.16,.76);
 }
