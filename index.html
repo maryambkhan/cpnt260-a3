@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <script src="lightbox-plus-jquery.js"></script>
 </head>
 <script src="https://kit.fontawesome.com/d22f1aa8a5.js" crossorigin="anonymous"></script>
 <body>
@@ -34,8 +36,11 @@
   <!-- images -->
     <div class="grid">
       <div class="sq-1">
+        <!--using lightbox for the gallery-->
         <figure>
-          <img src="images/yellow.jpg" alt="yellow vase">
+          <a href="images/yellow.jpg" data-lightbox="decor">
+            <img src="images/yellow.jpg" alt="yellow vase">
+          </a>
           <figcaption>Bright colors</figcaption>
         </figure>
       </div>
